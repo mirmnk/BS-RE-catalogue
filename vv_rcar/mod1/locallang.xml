@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txvvrcarM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">RC AR import</label>
+			<label index="function1">RC AR DB import from domoplius.lt</label>
+			<label index="function2">Micro districts upload</label>
+			<label index="function2_input1_label">Rajonas UID</label>
+			<label index="function2_input1_labe2">Gyvenviete UID</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="title">RC AR importas</label>
+			<label index="function1">RC AR DB importas iš domoplius.lt</label>
+			<label index="function2">Mikrorajonų įkrovimas</label>
+			<label index="function2_input1_label">Rajono UID</label>
+			<label index="function2_input1_labe2">Gyvenvietes UID</label>
+		</languageKey>
+	</data>
+</T3locallang>

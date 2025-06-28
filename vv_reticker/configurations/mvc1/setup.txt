@@ -1,0 +1,186 @@
+
+# Common configuration
+plugin.tx_vvreticker_mvc1.configurations {
+  templatePath = EXT:vv_reticker/templates/
+  pathToLanguageFile = EXT:vv_reticker/llxml/locallang.xml
+  newsBlockImageWidth = 130c
+  newsBlockImageHeight = 80c  
+  newsBlock2ImageWidth = 115c
+  newsBlock2ImageHeight = 80c   
+}
+
+includeLibs.tx_div = EXT:div/class.tx_div.php
+includeLibs.tx_lib_switch = EXT:lib/class.tx_lib_switch.php
+includeLibs.tx_vvreticker_controller_ticker = EXT:vv_reticker/controllers/class.tx_vvreticker_controller_ticker.php
+#includeLibs.tx_vvreticker_controller_ticker2 = EXT:vv_reticker/controllers/class.tx_vvreticker_controller_ticker2.php
+
+# The controller switch
+plugin.tx_vvreticker.controllerSwitch = USER
+plugin.tx_vvreticker.controllerSwitch {
+    userFunc = tx_lib_switch->main
+    flexFormSheetName = display
+
+    ticker = USER
+    ticker {
+       userFunc = tx_vvreticker_controller_ticker->main
+       configurations < plugin.tx_vvreticker_mvc1.configurations
+    }
+    ticker2 = USER_INT
+    ticker2 {
+       userFunc = tx_vvreticker_controller_ticker->main
+       configurations < plugin.tx_vvreticker_mvc1.configurations
+    }
+}
+plugin.tx_vvreticker {
+    _CSS_DEFAULT_STYLE (
+
+.tx-vvreticker a {
+ color: #000;
+ text-decoration: none;
+}
+
+.vvreticker-news-block1,
+.vvreticker-news-block2,
+.vvreticker-vo-block1, 
+.vvreticker-np-block1,
+.vvreticker-vo-block2, 
+.vvreticker-np-block2
+{
+	float: left;
+	border: 2px #E4EBF5 solid;
+	margin: 0 3px 10px 3px;
+	voice-family:"\"}\"";
+    voice-family:inherit;
+	margin: 0 5px 10px 5px !important;
+	margin: 0 4px 10px 4px;
+}
+
+.vvreticker-news-block2,
+.vvreticker-vo-block2, 
+.vvreticker-np-block2
+{
+	margin: 0 0 10px 0 !important;
+	margin: 0 0 10px 0;	
+}
+
+.vvreticker-news-block1 .vvreticker-news-block1-inner,
+.vvreticker-vo-block1 .vvreticker-vo-block1-inner,
+.vvreticker-np-block1 .vvreticker-np-block1-inner
+{
+	width: 130px;
+	height: 180px;
+}
+
+.vvreticker-vo-block1 .vvreticker-vo-block1-inner,
+.vvreticker-np-block1 .vvreticker-np-block1-inner
+{
+	height: 140px;
+}
+
+.vvreticker-news-block2 .vvreticker-news-block2-inner,
+.vvreticker-vo-block2 .vvreticker-vo-block2-inner,
+.vvreticker-np-block2 .vvreticker-np-block2-inner
+{
+	width: 115px;
+/*	height: 195px;*/
+}
+
+.vvreticker-vo-block2 .vvreticker-vo-block2-inner,
+.vvreticker-np-block2 .vvreticker-np-block2-inner
+{
+/*	height: 155px;*/
+}
+
+
+.vvreticker-news-block1 .vvreticker-news-block1-inner .vv-reticker-newsblock-price,
+.vvreticker-news-block2 .vvreticker-news-block2-inner .vv-reticker-newsblock-price
+{
+  text-align: center;
+  background-color: #E4EBF5;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.vvreticker-news-block1 .vvreticker-news-block1-inner .vv-reticker-newsblock-descr,
+.vvreticker-news-block2 .vvreticker-news-block2-inner .vv-reticker-newsblock-descr
+{
+  height: 50px !important;  
+  height: 59px;
+  font-size: 90%;
+  color: #666666;
+  overflow: hidden;
+  display: block;
+}
+
+.vvreticker-news-block2 .vvreticker-news-block2-inner .vv-reticker-newsblock-descr
+{
+/*  height: 65px !important;  
+  height: 74px;*/
+  height: auto !important;
+}
+
+.vvreticker-vo-block1 .vvreticker-vo-block1-inner .vv-reticker-vo-descr,
+.vvreticker-np-block1 .vvreticker-np-block1-inner .vv-reticker-np-descr,
+.vvreticker-vo-block2 .vvreticker-vo-block2-inner .vv-reticker-vo-descr,
+.vvreticker-np-block2 .vvreticker-np-block2-inner .vv-reticker-np-descr
+{
+  font-size: 90%;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  color: #666666;
+  height: 53px;
+  overflow: hidden;
+  display: block;
+}
+
+.vvreticker-vo-block2 .vvreticker-vo-block2-inner .vv-reticker-vo-descr,
+.vvreticker-np-block2 .vvreticker-np-block2-inner .vv-reticker-np-descr
+{
+  height: 68px;
+  height: auto;
+}
+
+.tx-vvreticker a:hover h3,
+.tx-vvreticker a:hover .vv-reticker-newsblock-descr,
+.tx-vvreticker a:hover .vv-reticker-vo-descr,
+.tx-vvreticker a:hover .vv-reticker-np-descr
+{
+  background-color: #E4EBF5;
+}
+
+.vvreticker-news-block1 .vvreticker-news-block1-inner p,
+.vvreticker-news-block2 .vvreticker-news-block2-inner p
+{
+  padding: 0.5em;
+  margin: 0;
+}
+
+.vvreticker-news-block1 .vvreticker-news-block1-inner h3,
+.vvreticker-news-block2 .vvreticker-news-block2-inner h3
+{
+  font-size: 80%;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0 0 0;
+  color: #1E2878;
+}
+
+#bodyText .vvreticker-news-header,
+#rightColumn .vvreticker-news-header,
+#bodyText .vvreticker-vo-header,
+#bodyText .vvreticker-np-header,
+#rightColumn .vvreticker-vo-header,
+#rightColumn .vvreticker-np-header
+{
+  color: #d18728;
+  font-weight: bold;
+  margin: 0 0 1em 0.5em;
+  clear: both;
+}
+
+
+    )
+}
+
+tt_content.list.20.vv_reticker_mvc1 =< plugin.tx_vvreticker.controllerSwitch

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_rcar'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_vvrcar_apskritis">County</label>
+			<label index="tx_vvrcar_apskritis.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_apskritis.title">Title</label>
+			<label index="tx_vvrcar_rajonas">District</label>
+			<label index="tx_vvrcar_rajonas.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_rajonas.title">Title</label>
+			<label index="tx_vvrcar_rajonas.auid">County</label>
+			<label index="tx_vvrcar_rajonas.rcauid">County (RCAR ID)</label>
+			<label index="tx_vvrcar_gyvenviete">Settlement</label>
+			<label index="tx_vvrcar_gyvenviete.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_gyvenviete.title">Title</label>
+			<label index="tx_vvrcar_gyvenviete.ruid">District</label>
+			<label index="tx_vvrcar_gyvenviete.rcruid">District (RCAR ID)</label>
+			<label index="tx_vvrcar_mikro_rajonas">Micro district</label>
+			<label index="tx_vvrcar_mikro_rajonas2">Micro district 2</label>
+			<label index="tx_vvrcar_mikro_rajonas.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_mikro_rajonas.title">Title</label>
+			<label index="tx_vvrcar_mikro_rajonas.guid">Settlement</label>
+			<label index="tx_vvrcar_mikro_rajonas.rcguid">Settlement (RCAR ID)</label>
+			<label index="tx_vvrcar_gatve">Street</label>
+			<label index="tx_vvrcar_gatve.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_gatve.title">Title</label>
+			<label index="tx_vvrcar_gatve.guid">Settlement</label>
+			<label index="tx_vvrcar_gatve.rcguid">Settlement (RCAR ID)</label>
+			<label index="tx_vvrcar_gatve.muid">Micro district</label>
+			<label index="tx_vvrcar_gatve.rcmuid">Micro district (RCAR ID)</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="tx_vvrcar_apskritis">Apskritis</label>
+			<label index="tx_vvrcar_apskritis.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_apskritis.title">Pavadinimas</label>
+			<label index="tx_vvrcar_rajonas">Rajonas</label>
+			<label index="tx_vvrcar_rajonas.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_rajonas.title">Pavadinimas</label>
+			<label index="tx_vvrcar_rajonas.auid">Apskritis</label>
+			<label index="tx_vvrcar_rajonas.rcauid">Apskritis (RCAR ID)</label>
+			<label index="tx_vvrcar_gyvenviete">Gyvenvietė</label>
+			<label index="tx_vvrcar_gyvenviete.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_gyvenviete.title">Pavadinimas</label>
+			<label index="tx_vvrcar_gyvenviete.ruid">Rajonas</label>
+			<label index="tx_vvrcar_gyvenviete.rcruid">Rajonas (RCAR ID)</label>
+			<label index="tx_vvrcar_mikro_rajonas">Seniunija</label>
+			<label index="tx_vvrcar_mikro_rajonas2">Mikrorajonas</label>
+			<label index="tx_vvrcar_mikro_rajonas.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_mikro_rajonas.title">Pavadinimas</label>
+			<label index="tx_vvrcar_mikro_rajonas.guid">Gyvenvietė</label>
+			<label index="tx_vvrcar_mikro_rajonas.rcguid">Gyvenvietė (RCAR ID)</label>
+			<label index="tx_vvrcar_gatve">Gatvė</label>
+			<label index="tx_vvrcar_gatve.rcuid">RCAR ID</label>
+			<label index="tx_vvrcar_gatve.title">Pavadinimas</label>
+			<label index="tx_vvrcar_gatve.guid">Gyvenvietė</label>
+			<label index="tx_vvrcar_gatve.rcguid">Gyvenvietė (RCAR ID)</label>
+			<label index="tx_vvrcar_gatve.muid">Mikrorajonas</label>
+			<label index="tx_vvrcar_gatve.rcmuid">Mikrorajonas (RCAR ID)</label>
+		</languageKey>
+	</data>
+</T3locallang>

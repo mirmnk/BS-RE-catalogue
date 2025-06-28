@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+
+		<description>Language labels for module &quot;user_txvvrecatalogM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">RE Options</label>
+			<label index="function1">Currency rate</label>
+			<label index="function2">Function #2</label>
+			<label index="function3">Function #3</label>
+			<label index="currency_rate_title">Foreign currency rates definition module</label>
+			<label index="currency_euro">EUR</label>		
+			<label index="currency_lang_label">Select language: </label>
+			<label index="currency_currency_label">Select currency: </label>
+			<label index="currency_language_currency_label">Language &lt;-&gt; Currency: </label>
+			<label index="currency_language_currency_current_settings_label">Current settings</label>
+			<label index="currency_language_currency_form_settings_label">Change settings</label>
+			<label index="currency_currency_rates_label">Currency rates: </label>
+			<label index="currency_currency_rates_is_label">is</label>
+			<label index="currency_sitting_currency_rates_label">Set currency rates </label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="title">NT Opcijos</label>
+			<label index="function1">Valiutų kursai</label>
+			<label index="currency_rate_title">Užsienio valiutų kursų nustatymo modulis</label>
+			<label index="currency_euro">Euras</label>		
+			<label index="currency_lang_label">Pasirinkite kalbą: </label>
+			<label index="currency_currency_label">Pasirinkite valiutą: </label>
+			<label index="currency_language_currency_label">Kalba &lt;-&gt; Valiuta: </label>
+			<label index="currency_language_currency_current_settings_label">Dabartiniai nustatymai</label>
+			<label index="currency_language_currency_form_settings_label">Keisti nustatymus</label>
+			<label index="currency_currency_rates_label">Valiutų kursai: </label>
+			<label index="currency_currency_rates_is_label">yra</label>
+			<label index="currency_sitting_currency_rates_label">Nustatyti valiutų kursus </label>
+		</languageKey>
+	</data>
+</T3locallang>

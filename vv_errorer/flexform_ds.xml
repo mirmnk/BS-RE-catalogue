@@ -1,0 +1,44 @@
+<T3DataStructure>
+    <meta>
+       <langDisable>1</langDisable> 
+        </meta>
+  <sheets>
+	<sDEF>
+	  <ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:tt_news/locallang_tca.php:tt_news.pi_flexform.sheet_general</sheetTitle>
+		</TCEforms>
+	    <type>array</type>
+	    <el>
+		  <display_mode>
+			  <TCEforms>
+				<label>LLL:EXT:tt_news/locallang_tca.php:tt_news.pi_flexform.what_to_display</label>
+				<config>
+					<type>select</type>
+					<items type="array">
+					<numIndex index="0" type="array">
+						<numIndex index="0">ERRRECEIVER</numIndex>
+						<numIndex index="1">ERRRECEIVER</numIndex>
+					</numIndex>
+					<numIndex index="1" type="array">
+						<numIndex index="0">LOGVIEWER</numIndex>
+						<numIndex index="1">LOGVIEWER</numIndex>
+					</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+					<multiple>0</multiple>
+					<selectedListStyle>width:150px</selectedListStyle>
+					<itemListStyle>width:150px</itemListStyle>
+				</config>
+			  </TCEforms>
+		  </display_mode>  
+		  
+		  
+		  
+		 
+	    </el>
+	  </ROOT>
+    </sDEF>
+  </sheets>
+</T3DataStructure>

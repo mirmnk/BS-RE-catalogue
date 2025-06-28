@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3DataStructure>
+ <meta>
+  <langDisable>1</langDisable>
+ </meta>
+ <sheets>
+  <sDEF>
+   <ROOT>
+    <TCEforms>
+     <sheetTitle>LLL:EXT:vv_reticker/locallang_db.xml:flexform.tab1</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el>
+	  <what_to_display>
+		  <TCEforms>
+			<label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.what_to_display</label>
+			<config>
+				<type>radio</type>
+				<items type="array">
+				<numIndex index="0" type="array">
+					<numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.news</numIndex>
+					<numIndex index="1">1</numIndex>
+				</numIndex>
+				<numIndex index="1" type="array">
+					<numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.valuable_offers</numIndex>
+					<numIndex index="1">2</numIndex>
+				</numIndex>
+				<numIndex index="2" type="array">
+					<numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.new_projects</numIndex>
+					<numIndex index="1">3</numIndex>
+				</numIndex>
+ 			  </items>
+			</config>
+		  </TCEforms>
+	  </what_to_display>
+     <re_objects>
+      <TCEforms>
+       <label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.re_objects</label>
+       <config>
+        <type>select</type>
+        <items type="array">
+			<numIndex index="10" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_flat</numIndex>
+                <numIndex index="1">tx_vvrecatalog_flat</numIndex>
+            </numIndex>
+			<numIndex index="20" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_house</numIndex>
+                <numIndex index="1">tx_vvrecatalog_house</numIndex>
+            </numIndex>
+			<numIndex index="30" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_land</numIndex>
+                <numIndex index="1">tx_vvrecatalog_land</numIndex>
+            </numIndex>
+			<numIndex index="40" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_accommodation</numIndex>
+                <numIndex index="1">tx_vvrecatalog_accommodation</numIndex>
+            </numIndex>
+			<numIndex index="50" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_homestead</numIndex>
+                <numIndex index="1">tx_vvrecatalog_homestead</numIndex>
+            </numIndex>
+			<numIndex index="60" type="array">
+                <numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.all</numIndex>
+                <numIndex index="1">all</numIndex>
+            </numIndex>
+        </items>
+        <exclusiveKeys>all</exclusiveKeys>
+        <multiple>1</multiple>
+        <size>6</size>
+        <maxitems>5</maxitems>
+        <selectedListStyle>width: 150px;</selectedListStyle>
+        <itemListStyle>width: 150px;</itemListStyle>
+       </config>
+      </TCEforms>
+     </re_objects>
+     <re_action>
+      <TCEforms>
+       <label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.re_action</label>
+       <config>
+        <type>select</type>
+        <items type="array">
+			<numIndex index="10" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_land.action.I.1</numIndex>
+                <numIndex index="1">1</numIndex>
+            </numIndex>
+			<numIndex index="20" type="array">
+                <numIndex index="0">LLL:EXT:vv_recatalog/locallang_db.xml:tx_vvrecatalog_land.action.I.2</numIndex>
+                <numIndex index="1">2</numIndex>
+            </numIndex>
+			<numIndex index="30" type="array">
+                <numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.all</numIndex>
+                <numIndex index="1">3</numIndex>
+            </numIndex>
+        </items>
+        <exclusiveKeys>3</exclusiveKeys>
+        <multiple>1</multiple>
+        <size>3</size>
+        <maxitems>2</maxitems>
+        <selectedListStyle>width: 150px;</selectedListStyle>
+        <itemListStyle>width: 150px;</itemListStyle>
+       </config>
+      </TCEforms>
+     </re_action>
+     <display_number>
+      <TCEforms>
+       <label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.how_many_reobjects</label>
+       <config>
+        <type>select</type>
+        <items type="array">
+			<numIndex index="1" type="array">
+                <numIndex index="0">1</numIndex>
+                <numIndex index="1">1</numIndex>
+            </numIndex>
+			<numIndex index="2" type="array">
+                <numIndex index="0">2</numIndex>
+                <numIndex index="1">2</numIndex>
+            </numIndex>
+			<numIndex index="3" type="array">
+                <numIndex index="0">3</numIndex>
+                <numIndex index="1">3</numIndex>
+            </numIndex>
+			<numIndex index="4" type="array">
+                <numIndex index="0">4</numIndex>
+                <numIndex index="1">4</numIndex>
+            </numIndex>
+			<numIndex index="5" type="array">
+                <numIndex index="0">5</numIndex>
+                <numIndex index="1">5</numIndex>
+            </numIndex>
+			<numIndex index="6" type="array">
+                <numIndex index="0">6</numIndex>
+                <numIndex index="1">6</numIndex>
+            </numIndex>
+			<numIndex index="7" type="array">
+                <numIndex index="0">7</numIndex>
+                <numIndex index="1">7</numIndex>
+            </numIndex>
+			<numIndex index="8" type="array">
+                <numIndex index="0">8</numIndex>
+                <numIndex index="1">8</numIndex>
+            </numIndex>
+			<numIndex index="9" type="array">
+                <numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.all</numIndex>
+                <numIndex index="1">all</numIndex>
+            </numIndex>
+        </items>
+        <size>1</size>
+       </config>
+      </TCEforms>
+     </display_number>
+     <pages>
+      <TCEforms>
+       <exclude>1</exclude>
+       <label>LLL:EXT:lang/locallang_general.xml:LGL.startingpoint</label>
+       <config>
+        <type>group</type>
+        <internal_type>db</internal_type>
+        <allowed>pages</allowed>
+        <size>3</size>
+        <maxitems>22</maxitems>
+        <minitems>0</minitems>
+        <show_thumbs>1</show_thumbs>
+       </config>
+      </TCEforms>
+     </pages>
+     <recursive>
+      <TCEforms>
+       <label>LLL:EXT:lang/locallang_general.xml:LGL.recursive</label>
+       <config>
+        <type>select</type>
+        <items type="array">
+         <numIndex index="0" type="array">
+          <numIndex index="0"/>
+          <numIndex index="1"/>
+         </numIndex>
+         <numIndex index="1" type="array">
+          <numIndex index="0">LLL:EXT:cms/locallang_ttc.xml:recursive.I.1</numIndex>
+          <numIndex index="1">1</numIndex>
+         </numIndex>
+         <numIndex index="2" type="array">
+          <numIndex index="0">LLL:EXT:cms/locallang_ttc.xml:recursive.I.2</numIndex>
+          <numIndex index="1">2</numIndex>
+         </numIndex>
+         <numIndex index="3" type="array">
+          <numIndex index="0">LLL:EXT:cms/locallang_ttc.xml:recursive.I.3</numIndex>
+          <numIndex index="1">3</numIndex>
+         </numIndex>
+         <numIndex index="4" type="array">
+          <numIndex index="0">LLL:EXT:cms/locallang_ttc.xml:recursive.I.4</numIndex>
+          <numIndex index="1">4</numIndex>
+         </numIndex>
+         <numIndex index="5" type="array">
+          <numIndex index="0">LLL:EXT:cms/locallang_ttc.xml:recursive.I.5</numIndex>
+          <numIndex index="1">250</numIndex>
+         </numIndex>
+        </items>
+        <minitems>0</minitems>
+        <maxitems>1</maxitems>
+        <size>1</size>
+       </config>
+      </TCEforms>
+     </recursive>
+    </el>
+   </ROOT>
+  </sDEF>
+  <display>
+    <ROOT>
+    <TCEforms>
+     <sheetTitle>LLL:EXT:vv_reticker/locallang_db.xml:flexform.tab2</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el>
+     <controller>
+      <TCEforms>
+       <label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.controllerSelection</label>
+       <config>
+        <type>select</type>
+        <items type="array">
+			<numIndex index="10" type="array">
+                <numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.controllerSelection.ticker</numIndex>
+                <numIndex index="1">ticker</numIndex>
+            </numIndex>
+			<numIndex index="20" type="array">
+                <numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.controllerSelection.ticker2</numIndex>
+                <numIndex index="1">ticker2</numIndex>
+            </numIndex>
+        </items>
+       </config>
+      </TCEforms>
+     </controller>
+	  <display_layout>
+		  <TCEforms>
+			<label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.layout</label>
+			<config>
+				<type>radio</type>
+				<items type="array">
+				<numIndex index="0" type="array">
+					<numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.layout1</numIndex>
+					<numIndex index="1">1</numIndex>
+				</numIndex>
+				<numIndex index="1" type="array">
+					<numIndex index="0">LLL:EXT:vv_reticker/locallang_db.xml:flexform.display.layout2</numIndex>
+					<numIndex index="1">2</numIndex>
+				</numIndex>
+				</items>
+				<default>1</default>
+			</config>
+		  </TCEforms>
+	  </display_layout>
+    </el>    
+    </ROOT>
+  </display>
+  <rotation>
+    <ROOT>
+    <TCEforms>
+     <sheetTitle>LLL:EXT:vv_reticker/locallang_db.xml:flexform.tab3</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el>
+		<rotate_from>
+			<TCEforms>
+			<label>LLL:EXT:vv_reticker/locallang_db.xml:flexform.rotate_from</label>
+			<config>
+				<type>input</type>
+				<eval>num</eval>
+				<size>5</size>
+				<default>0</default>
+			</config>
+			</TCEforms>
+		</rotate_from>
+    </el>    
+    </ROOT>
+  </rotation>
+ </sheets>
+</T3DataStructure>

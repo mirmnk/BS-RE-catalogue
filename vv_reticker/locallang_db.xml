@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_reticker'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">RE Catalog ticker</label>
+			<label index="flexform.tab1">General options</label>
+			<label index="flexform.tab2">Display options</label>
+			<label index="flexform.tab3">Rotation options</label>
+			<label index="flexform.rotate_from">Number of the newest ads to select random ones from (0 - from all)</label>					
+			<label index="flexform.controllerSelection">Displaying mode: </label>
+			<label index="flexform.controllerSelection.ticker">Normal</label>
+			<label index="flexform.controllerSelection.ticker2">Random</label>
+			<label index="flexform.display.layout">Layout</label>
+			<label index="flexform.display.layout1">Horizontal</label>
+			<label index="flexform.display.layout2">Vertical</label>
+			<label index="flexform.display.what_to_display">What to display:</label>
+			<label index="flexform.display.re_action">Display ads with action:</label>
+			<label index="flexform.display.re_objects">Use RE objects:</label>
+			<label index="flexform.display.how_many_reobjects">How many blocks to display:</label>
+			<label index="flexform.display.all">All</label>
+			<label index="flexform.display.news">News</label>
+			<label index="flexform.display.valuable_offers">Valuable offers</label>
+			<label index="flexform.display.new_projects">New projects</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_vo.I.0">Show as valuable offer</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_vo">Valuable offer's settings</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_votext">Valuable offer announse text</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_np.I.0">Show as new project</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_np">New project's settings</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_nptext">New project announse text</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="tt_content.list_type_pi1">NT Katalogo anonsas</label>
+			<label index="flexform.tab1">Pagrindiniai nustatymai</label>
+			<label index="flexform.tab2">Atvaizdavimas</label>
+			<label index="flexform.tab3">Rotacija</label>	
+			<label index="flexform.rotate_from">Skaičius naujausiu skelbimų iš kurių bus atrinkinejami atsitiktinai rodomi (0 - iš visų)</label>					
+			<label index="flexform.controllerSelection">Atvaizdavimo režimas: </label>		
+			<label index="flexform.controllerSelection.ticker">Normalus</label>
+			<label index="flexform.controllerSelection.ticker2">Rotacijos principu</label>
+			<label index="flexform.display.layout">Išdestimas</label>
+			<label index="flexform.display.layout1">Horizontalus</label>
+			<label index="flexform.display.layout2">Vertikalus</label>
+			<label index="flexform.display.what_to_display">Ką rodyti:</label>
+			<label index="flexform.display.re_objects">Naudoti NT objektus:</label>
+			<label index="flexform.display.how_many_reobjects">Kiek infoblokų rodyti:</label>
+			<label index="flexform.display.re_action">Rodyti skelbimus, kurių veiksmas yra:</label>
+			<label index="flexform.display.all">Visus</label>
+			<label index="flexform.display.news">Naujienas</label>
+			<label index="flexform.display.valuable_offers">Vertingus pasiūlymus</label>
+			<label index="flexform.display.new_projects">Naujus projektus</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_vo.I.0">Rodyti tarp vertingų pasiūlymų</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_vo">Vertingo pasiūlymo nustatymai</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_votext">Vertingo pasiūlymo anonso tekstas</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_np.I.0">Rodyti tarp naujų projektų</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_np">Naujojo projekto nustatymai</label>
+			<label index="tx_vvrecatalog_flat.tx_vvreticker_nptext">Naujojo projekto anonso tekstas</label>
+
+		</languageKey>
+	</data>
+</T3locallang>

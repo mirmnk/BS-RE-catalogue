@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_ttaddress'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_address.tx_vvttaddress_logo">Company Logo</label>
+			<label index="tt_address.tx_vvttaddress_dpregistered">Is agent registered in DomoPlius.lt system?</label>
+			<label index="tt_address.tx_vvttaddress_dpregistered_yes">Yes</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="tt_address.tx_vvttaddress_logo">Įmonės logo</label>
+			<label index="tt_address.tx_vvttaddress_dpregistered">Ar agentas yra užregistruotas DomoPlius.lt sistemoje?</label>
+			<label index="tt_address.tx_vvttaddress_dpregistered_yes">Taip</label>
+		</languageKey>
+	</data>
+</T3locallang>

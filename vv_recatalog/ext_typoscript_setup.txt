@@ -1,0 +1,30 @@
+plugin.tx_vvrecatalog_pi1 {
+  displayList {
+	 image.file.width = 106
+	 templates {
+	  	search = EXT:vv_recatalog/pi1/search_form.htm
+	  	single_view = EXT:vv_recatalog/pi1/popup.htm 
+	 } 
+  }
+  displaySingle {
+  	bigImg_stdWrap {
+		file {
+		  width = 215
+		  height = 170
+		}
+	}
+	
+  	superImg_stdWrap {
+		file {
+#		  width = 515m
+#		  height = 500m	
+		  maxW = 515
+		  maxH = 500
+		}
+	}
+	
+	fieldLbl_stdWrap {
+		wrap = <span class="label">|</span>
+	}
+  }
+}

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>BE fields labels</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <fileId>EXT:vv_recatalog/locallang_db.xml</fileId>
+        <labelContext type="array">
+            <label index="tx_vvrecatalog_heating_type"></label>
+            <label index="tx_vvrecatalog_heating_type.title"></label>
+            <label index="tx_vvrecatalog_heating_type.aruodas_title"></label>
+            <label index="tx_vvrecatalog_heating_type.edomus_title"></label>
+            <label index="tx_vvrecatalog_land_pos"></label>
+            <label index="tx_vvrecatalog_land_pos.title"></label>
+            <label index="tx_vvrecatalog_city"></label>
+            <label index="tx_vvrecatalog_city.title"></label>
+            <label index="tx_vvrecatalog_city.aruodas_uid"></label>
+            <label index="tx_vvrecatalog_city.aruodas_did"></label>
+            <label index="tx_vvrecatalog_city.city24_city"></label>
+            <label index="tx_vvrecatalog_city.city24_county"></label>
+            <label index="tx_vvrecatalog_district"></label>
+            <label index="tx_vvrecatalog_district.title"></label>
+            <label index="tx_vvrecatalog_district.aruodas_uid"></label>
+            <label index="tx_vvrecatalog_district.city24_val"></label>
+            <label index="tx_vvrecatalog_building_type"></label>
+            <label index="tx_vvrecatalog_building_type.title"></label>
+            <label index="tx_vvrecatalog_building_type.aruodas_title"></label>
+            <label index="tx_vvrecatalog_building_type.edomus_title"></label>
+            <label index="tx_vvrecatalog_sequence"></label>
+            <label index="tx_vvrecatalog_land"></label>
+            <label index="tx_vvrecatalog_land.action.I.1"></label>
+            <label index="tx_vvrecatalog_land.action.I.2"></label>
+            <label index="tx_vvrecatalog_land.action"></label>
+            <label index="tx_vvrecatalog_land.gid"></label>
+            <label index="tx_vvrecatalog_land.price"></label>
+            <label index="tx_vvrecatalog_land.city"></label>
+            <label index="tx_vvrecatalog_land.district"></label>
+            <label index="tx_vvrecatalog_land.street"></label>
+            <label index="tx_vvrecatalog_land.land_type"></label>
+            <label index="tx_vvrecatalog_land.land_pos"></label>
+            <label index="tx_vvrecatalog_land.land_area"></label>
+            <label index="tx_vvrecatalog_land.images"></label>
+            <label index="tx_vvrecatalog_land.descr"></label>
+            <label index="tx_vvrecatalog_land.employee"></label>
+            <label index="tx_vvrecatalog_ac_type"></label>
+            <label index="tx_vvrecatalog_ac_type.title"></label>
+            <label index="tx_vvrecatalog_land_type"></label>
+            <label index="tx_vvrecatalog_land_type.title"></label>
+            <label index="tx_vvrecatalog_land_type.city24_land_type"></label>
+            <label index="tx_vvrecatalog_flat"></label>
+            <label index="tx_vvrecatalog_flat.action.I.1"></label>
+            <label index="tx_vvrecatalog_flat.action.I.2"></label>
+            <label index="tx_vvrecatalog_flat.action"></label>
+            <label index="tx_vvrecatalog_flat.gid"></label>
+            <label index="tx_vvrecatalog_flat.price"></label>
+            <label index="tx_vvrecatalog_flat.price_eur"></label>
+            <label index="tx_vvrecatalog_flat.city"></label>
+            <label index="tx_vvrecatalog_flat.district"></label>
+            <label index="tx_vvrecatalog_flat.street"></label>
+            <label index="tx_vvrecatalog_flat.building_type"></label>
+            <label index="tx_vvrecatalog_flat.bdate"></label>
+            <label index="tx_vvrecatalog_flat.heating_type"></label>
+            <label index="tx_vvrecatalog_flat.area"></label>
+            <label index="tx_vvrecatalog_flat.images"></label>
+            <label index="tx_vvrecatalog_flat.roomcount"></label>
+            <label index="tx_vvrecatalog_flat.floor"></label>
+            <label index="tx_vvrecatalog_flat.floorcount"></label>
+            <label index="tx_vvrecatalog_flat.descr"></label>
+            <label index="tx_vvrecatalog_flat.employee"></label>
+            <label index="tx_vvrecatalog_homestead"></label>
+            <label index="tx_vvrecatalog_homestead.action.I.1"></label>
+            <label index="tx_vvrecatalog_homestead.action.I.2"></label>
+            <label index="tx_vvrecatalog_homestead.action"></label>
+            <label index="tx_vvrecatalog_homestead.gid"></label>
+            <label index="tx_vvrecatalog_homestead.price"></label>
+            <label index="tx_vvrecatalog_homestead.city"></label>
+            <label index="tx_vvrecatalog_homestead.district"></label>
+            <label index="tx_vvrecatalog_homestead.street"></label>
+            <label index="tx_vvrecatalog_homestead.building_type"></label>
+            <label index="tx_vvrecatalog_homestead.bdate"></label>
+            <label index="tx_vvrecatalog_homestead.heating_type"></label>
+            <label index="tx_vvrecatalog_homestead.area"></label>
+            <label index="tx_vvrecatalog_homestead.roomcount"></label>
+            <label index="tx_vvrecatalog_homestead.land_type"></label>
+            <label index="tx_vvrecatalog_homestead.land_pos"></label>
+            <label index="tx_vvrecatalog_homestead.floorcount"></label>
+            <label index="tx_vvrecatalog_homestead.descr"></label>
+            <label index="tx_vvrecatalog_homestead.land_area"></label>
+            <label index="tx_vvrecatalog_homestead.employee"></label>
+            <label index="tx_vvrecatalog_house"></label>
+            <label index="tx_vvrecatalog_house.action.I.1"></label>
+            <label index="tx_vvrecatalog_house.action.I.2"></label>
+            <label index="tx_vvrecatalog_house.action"></label>
+            <label index="tx_vvrecatalog_house.gid"></label>
+            <label index="tx_vvrecatalog_house.price"></label>
+            <label index="tx_vvrecatalog_house.city"></label>
+            <label index="tx_vvrecatalog_house.district"></label>
+            <label index="tx_vvrecatalog_house.street"></label>
+            <label index="tx_vvrecatalog_house.images"></label>
+            <label index="tx_vvrecatalog_house.roomcount"></label>
+            <label index="tx_vvrecatalog_house.building_type"></label>
+            <label index="tx_vvrecatalog_house.bdate"></label>
+            <label index="tx_vvrecatalog_house.heating_type"></label>
+            <label index="tx_vvrecatalog_house.area"></label>
+            <label index="tx_vvrecatalog_house.floorcount"></label>
+            <label index="tx_vvrecatalog_house.land_area"></label>
+            <label index="tx_vvrecatalog_house.land_type"></label>
+            <label index="tx_vvrecatalog_house.descr"></label>
+            <label index="tx_vvrecatalog_house.employee"></label>
+            <label index="tx_vvrecatalog_accommodation"></label>
+            <label index="tx_vvrecatalog_accommodation.action.I.1"></label>
+            <label index="tx_vvrecatalog_accommodation.action.I.2"></label>
+            <label index="tx_vvrecatalog_accommodation.action"></label>
+            <label index="tx_vvrecatalog_accommodation.gid"></label>
+            <label index="tx_vvrecatalog_accommodation.price"></label>
+            <label index="tx_vvrecatalog_accommodation.city"></label>
+            <label index="tx_vvrecatalog_accommodation.district"></label>
+            <label index="tx_vvrecatalog_accommodation.street"></label>
+            <label index="tx_vvrecatalog_accommodation.building_type"></label>
+            <label index="tx_vvrecatalog_accommodation.bdate"></label>
+            <label index="tx_vvrecatalog_accommodation.heating_type"></label>
+            <label index="tx_vvrecatalog_accommodation.area"></label>
+            <label index="tx_vvrecatalog_accommodation.roomcount"></label>
+            <label index="tx_vvrecatalog_accommodation.floorcount"></label>
+            <label index="tx_vvrecatalog_accommodation.descr"></label>
+            <label index="tx_vvrecatalog_accommodation.ac_type"></label>
+            <label index="tx_vvrecatalog_accommodation.floor"></label>
+            <label index="tx_vvrecatalog_accommodation.employee"></label>
+            <label index="tt_content.list_type_pi1"></label>
+            <label index="tt_content.tx_vvrecatalog.tab.1.title"></label>
+            <label index="tt_content.tx_vvrecatalog.action"></label>
+            <label index="tt_content.tx_vvrecatalog.what_to_display"></label>
+            <label index="tx_vvrecatalog_district.city"></label>
+            <label index="colPos.I.4"></label>
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_vvrecatalog_heating_type">Heating type</label>
+            <label index="tx_vvrecatalog_heating_type.title">Heating type</label>
+            <label index="tx_vvrecatalog_heating_type.aruodas_title">Corresponding aruodas.lt heating type value</label>
+            <label index="tx_vvrecatalog_heating_type.edomus_title">Corresponding edomus.lt heating type value</label>
+            <label index="tx_vvrecatalog_heating_type.domoplius_id">Domoplius.lt heating type ID value</label>
+            <label index="tx_vvrecatalog_land_pos">Near water accumulation</label>
+            <label index="tx_vvrecatalog_land_pos.title">Near water accumulation</label>
+            <label index="tx_vvrecatalog_land_pos.edomus_title">edomus.lt value</label>
+            <label index="tx_vvrecatalog_city">City</label>
+            <label index="tx_vvrecatalog_city.title">City</label>
+            <label index="tx_vvrecatalog_city.aruodas_uid">aruodas.lt city uid</label>
+            <label index="tx_vvrecatalog_city.aruodas_did">aruodas.lt district uid</label>
+            <label index="tx_vvrecatalog_city.city24_city">city24.lt city value</label>
+            <label index="tx_vvrecatalog_city.city24_county">city24.lt county value</label>
+            <label index="tx_vvrecatalog_district">District</label>
+            <label index="tx_vvrecatalog_district.title">District</label>
+            <label index="tx_vvrecatalog_district.aruodas_uid">Aruodas.lt district ID</label>
+            <label index="tx_vvrecatalog_district.city24_val">city24.lt district value</label>
+            <label index="tx_vvrecatalog_building_type">Building type</label>
+            <label index="tx_vvrecatalog_building_type.title">Building type</label>
+            <label index="tx_vvrecatalog_building_type.aruodas_title">Corresponding aruodas.lt building type value</label>
+            <label index="tx_vvrecatalog_building_type.edomus_title">Corresponding edomus.lt building type value</label>
+            <label index="tx_vvrecatalog_building_type.domoplius_id">DomoPlius.lt ID</label>
+            <label index="tx_vvrecatalog_sequence">Sequence</label>
+            <label index="tx_vvrecatalog_land">Land</label>
+            <label index="tx_vvrecatalog_land.action.I.1">Sell</label>
+            <label index="tx_vvrecatalog_land.action.I.2">Rent</label>
+            <label index="tx_vvrecatalog_land.action">Action</label>
+            <label index="tx_vvrecatalog_land.gid">ID</label>
+            <label index="tx_vvrecatalog_land.price">Price</label>
+            <label index="tx_vvrecatalog_land.city">City</label>
+            <label index="tx_vvrecatalog_land.district">District</label>
+            <label index="tx_vvrecatalog_land.street">Street</label>
+            <label index="tx_vvrecatalog_land.number">Number</label>
+            <label index="tx_vvrecatalog_land.land_type">Land type</label>
+            <label index="tx_vvrecatalog_land.land_pos">Near water accumulation</label>
+            <label index="tx_vvrecatalog_land.land_area">Area</label>
+            <label index="tx_vvrecatalog_land.images">Images</label>
+            <label index="tx_vvrecatalog_land.descr">Description</label>
+            <label index="tx_vvrecatalog_land.employee">Employee</label>
+            <label index="tx_vvrecatalog_ac_type">Accommodation type</label>
+            <label index="tx_vvrecatalog_ac_type.title">Accommodation type</label>
+            <label index="tx_vvrecatalog_ac_type.edomus_title">edomus.lt value</label>
+            <label index="tx_vvrecatalog_ac_type.domoplius_id">Domoplius.lt value</label>
+            <label index="tx_vvrecatalog_land_type">Land type</label>
+            <label index="tx_vvrecatalog_land_type.title">Land type</label>
+            <label index="tx_vvrecatalog_land_type.city24_land_type">city24 land purpose constant value</label>
+            <label index="tx_vvrecatalog_land_type.edomus_land_type">edomus land purpose constant value</label>
+            <label index="tx_vvrecatalog_land_type.domoplius_id">Domoplius.lt land purpose ID</label>
+            <label index="tx_vvrecatalog_flat">Flat</label>
+            <label index="tx_vvrecatalog_flat.action.I.1">Sell</label>
+            <label index="tx_vvrecatalog_flat.action.I.2">Rent</label>
+            <label index="tx_vvrecatalog_flat.action">Action</label>
+            <label index="tx_vvrecatalog_flat.gid">ID</label>
+            <label index="tx_vvrecatalog_flat.price">Price</label>
+            <label index="tx_vvrecatalog_flat.price_eur">Price, EUR</label>
+            <label index="tx_vvrecatalog_flat.city">City</label>
+            <label index="tx_vvrecatalog_flat.district">District</label>
+            <label index="tx_vvrecatalog_flat.street">Street</label>
+            <label index="tx_vvrecatalog_flat.number">Flat number</label>
+            <label index="tx_vvrecatalog_flat.building_type">Building type</label>
+            <label index="tx_vvrecatalog_flat.bdate">Building date</label>
+            <label index="tx_vvrecatalog_flat.heating_type">Heating type</label>
+            <label index="tx_vvrecatalog_flat.area">Area m2</label>
+            <label index="tx_vvrecatalog_flat.images">Images</label>
+            <label index="tx_vvrecatalog_flat.roomcount">Number of rooms</label>
+            <label index="tx_vvrecatalog_flat.floor">Floor</label>
+            <label index="tx_vvrecatalog_flat.floorcount">Number of floors</label>
+            <label index="tx_vvrecatalog_flat.descr">Description</label>
+            <label index="tx_vvrecatalog_flat.employee">Employee</label>
+            <label index="tx_vvrecatalog_flat_domoplius_id">Domoplius ID</label>            
+            <label index="tx_vvrecatalog_flat_domoplius_status">Domoplius.lt import log</label>            
+            <label index="tx_vvrecatalog_homestead">Homestead</label>
+            <label index="tx_vvrecatalog_homestead.action.I.1">Sell</label>
+            <label index="tx_vvrecatalog_homestead.action.I.2">Rent</label>
+            <label index="tx_vvrecatalog_homestead.action">Action</label>
+            <label index="tx_vvrecatalog_homestead.gid">ID</label>
+            <label index="tx_vvrecatalog_homestead.price">Price</label>
+            <label index="tx_vvrecatalog_homestead.city">City</label>
+            <label index="tx_vvrecatalog_homestead.district">District</label>
+            <label index="tx_vvrecatalog_homestead.street">Street</label>
+            <label index="tx_vvrecatalog_homestead.building_type">Building type</label>
+            <label index="tx_vvrecatalog_homestead.bdate">Building date</label>
+            <label index="tx_vvrecatalog_homestead.heating_type">Heating type</label>
+            <label index="tx_vvrecatalog_homestead.area">House area m2</label>
+            <label index="tx_vvrecatalog_homestead.roomcount">Number of rooms</label>
+            <label index="tx_vvrecatalog_homestead.land_type">Land type</label>
+            <label index="tx_vvrecatalog_homestead.land_pos">Near water accumulation</label>
+            <label index="tx_vvrecatalog_homestead.floorcount">Number of floor</label>
+            <label index="tx_vvrecatalog_homestead.descr">Description</label>
+            <label index="tx_vvrecatalog_homestead.land_area">Land area</label>
+            <label index="tx_vvrecatalog_homestead.employee">Employee</label>
+            <label index="tx_vvrecatalog_house">House</label>
+            <label index="tx_vvrecatalog_house.action.I.1">Sell</label>
+            <label index="tx_vvrecatalog_house.action.I.2">Rent</label>
+            <label index="tx_vvrecatalog_house.action">Action</label>
+            <label index="tx_vvrecatalog_house.gid">ID</label>
+            <label index="tx_vvrecatalog_house.price">Price</label>
+            <label index="tx_vvrecatalog_house.city">City</label>
+            <label index="tx_vvrecatalog_house.district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_house.street">Street</label>
+            <label index="tx_vvrecatalog_house.number">House number</label>
+            <label index="tx_vvrecatalog_house.images">Images</label>
+            <label index="tx_vvrecatalog_house.roomcount">Number of rooms</label>
+            <label index="tx_vvrecatalog_house.building_type">Building type</label>
+            <label index="tx_vvrecatalog_house.bdate">Building date</label>
+            <label index="tx_vvrecatalog_house.heating_type">Heating type</label>
+            <label index="tx_vvrecatalog_house.area">House area m2</label>
+            <label index="tx_vvrecatalog_house.floorcount">Number of floors</label>
+            <label index="tx_vvrecatalog_house.land_area">Land area</label>
+            <label index="tx_vvrecatalog_house.land_type">Land type</label>
+            <label index="tx_vvrecatalog_house.descr">Description</label>
+            <label index="tx_vvrecatalog_house.employee">Employee</label>
+            <label index="tx_vvrecatalog_accommodation">Accommodation</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.1">Sell</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.2">Rent</label>
+            <label index="tx_vvrecatalog_accommodation.action">Action</label>
+            <label index="tx_vvrecatalog_accommodation.gid">ID</label>
+            <label index="tx_vvrecatalog_accommodation.price">Price</label>
+            <label index="tx_vvrecatalog_accommodation.city">City</label>
+            <label index="tx_vvrecatalog_accommodation.district">District</label>
+            <label index="tx_vvrecatalog_accommodation.street">Street</label>
+            <label index="tx_vvrecatalog_accommodation.building_type">Building type</label>
+            <label index="tx_vvrecatalog_accommodation.bdate">Building date</label>
+            <label index="tx_vvrecatalog_accommodation.heating_type">Heating type</label>
+            <label index="tx_vvrecatalog_accommodation.area">Area m2</label>
+            <label index="tx_vvrecatalog_accommodation.roomcount">Number of rooms</label>
+            <label index="tx_vvrecatalog_accommodation.floorcount">Number of floors</label>
+            <label index="tx_vvrecatalog_accommodation.descr">Description</label>
+            <label index="tx_vvrecatalog_accommodation.ac_type">Accommodation type</label>
+            <label index="tx_vvrecatalog_accommodation.floor">Floor</label>
+            <label index="tx_vvrecatalog_accommodation.employee">Employee</label>
+            <label index="tt_content.list_type_pi1">RE catalog</label>
+            <label index="tt_content.tx_vvrecatalog.tab.1.title">Catalog options</label>
+            <label index="tt_content.tx_vvrecatalog.action">Action</label>
+            <label index="tt_content.tx_vvrecatalog.what_to_display">RE object type</label>
+            <label index="tx_vvrecatalog_district.city">City</label>
+            <label index="colPos.I.4">Banners bottom</label>
+			<label index="tx_vvrecatalog_options">VV Recatalog optons</label>
+			<label index="tx_vvrecatalog_options.opt">Option</label>
+			<label index="tx_vvrecatalog_options.value">Value</label>
+            <label index="tx_vvrecatalog_flat.settings_tab">Settings</label>
+            <label index="tx_vvrecatalog_flat.ext_pub">External publishing</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.0">(V) Publish everywhere</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.1">(I) Only Internet</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.2">(P) Alio Reklama</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.3">(S) Sostines skelbimai</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.4">(RR) Is ranku i rankas</label>
+            <label index="tt_content.tx_vvrecatalog.tab.domoplius.title">Domoplius.lt info</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="tx_vvrecatalog_heating_type">Šildymo tipas</label>
+            <label index="tx_vvrecatalog_heating_type.title">Šildymo tipas</label>
+            <label index="tx_vvrecatalog_heating_type.aruodas_title">aruodas.lt šildymo tipo reikšmė</label>
+            <label index="tx_vvrecatalog_heating_type.edomus_title">edomus šildymo tipo reikšmė</label>
+            <label index="tx_vvrecatalog_heating_type.domoplius_id">Domoplius.lt šildymo tipo ID reikšmė</label>
+            <label index="tx_vvrecatalog_land_pos">Šalia vandens telkinio</label>
+            <label index="tx_vvrecatalog_land_pos.title">Šalia vandens telkinio</label>
+            <label index="tx_vvrecatalog_land_pos.edomus_title">edomus.lt reikšmė</label>
+            <label index="tx_vvrecatalog_city">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_city.title">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_city.aruodas_uid">aruodas.lt miesto ID</label>
+            <label index="tx_vvrecatalog_city.aruodas_did">aruodas.lt gyvenvietes ID</label>
+            <label index="tx_vvrecatalog_city.city24_city">city24.lt miesto reikšmė</label>
+            <label index="tx_vvrecatalog_city.city24_county">city24.lt apskrities reikšmė</label>
+            <label index="tx_vvrecatalog_district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_district.title">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_district.aruodas_uid">Aruodas.lt microrajono ID</label>
+            <label index="tx_vvrecatalog_district.city24_val">city24.lt rajono reikšmė</label>
+            <label index="tx_vvrecatalog_building_type">Namo tipas</label>
+            <label index="tx_vvrecatalog_building_type.title">Namo tipas</label>
+            <label index="tx_vvrecatalog_building_type.aruodas_title">aruodas.lt namo tipo reikšmė</label>
+            <label index="tx_vvrecatalog_building_type.edomus_title">edomus.lt namo tipo reikšmė</label>
+            <label index="tx_vvrecatalog_sequence">Sequence</label>
+            <label index="tx_vvrecatalog_land">Žemė</label>
+            <label index="tx_vvrecatalog_land.action.I.1">Pardavimas</label>
+            <label index="tx_vvrecatalog_land.action.I.2">Nuoma</label>
+            <label index="tx_vvrecatalog_land.action">Veiksmas</label>
+            <label index="tx_vvrecatalog_land.gid">Skelbimo Nr</label>
+            <label index="tx_vvrecatalog_land.price">Kaina</label>
+            <label index="tx_vvrecatalog_land.city">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_land.district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_land.street">Gatve</label>
+            <label index="tx_vvrecatalog_land.number">Numeris</label>
+            <label index="tx_vvrecatalog_land.land_type">Žemės paskirtis</label>
+            <label index="tx_vvrecatalog_land.land_pos">Šalia vandens telkinio</label>
+            <label index="tx_vvrecatalog_land.land_area">Plotas a.</label>
+            <label index="tx_vvrecatalog_land.images">Nuotraukos</label>
+            <label index="tx_vvrecatalog_land.descr">Papildomas aprašymas</label>
+            <label index="tx_vvrecatalog_land.employee">Darbuotojas</label>
+            <label index="tx_vvrecatalog_ac_type">Patalpų paskirtis</label>
+            <label index="tx_vvrecatalog_ac_type.title">Patalpų paskirtis</label>
+            <label index="tx_vvrecatalog_ac_type.edomus_title">edomus.lt reikšmė</label>
+            <label index="tx_vvrecatalog_ac_type.domoplius_id">Domoplius.lt reikšmė</label>
+            <label index="tx_vvrecatalog_land_type">Žemes paskirtis</label>
+            <label index="tx_vvrecatalog_land_type.city24_land_type">city24 žemes paskirties reikšmė</label>
+            <label index="tx_vvrecatalog_land_type.edomus_land_type">edomus žemes paskirties reikšmė</label>
+            <label index="tx_vvrecatalog_land_type.domoplius_id">Domoplius.lt žemes paskirties reikšmė</label>
+            <label index="tx_vvrecatalog_land_type.title">Žemes paskirtis</label>
+            <label index="tx_vvrecatalog_flat">Butas</label>
+            <label index="tx_vvrecatalog_flat.action.I.1">Pardavimas</label>
+            <label index="tx_vvrecatalog_flat.action.I.2">Nuoma</label>
+            <label index="tx_vvrecatalog_flat.action">Veiksmas</label>
+            <label index="tx_vvrecatalog_flat.gid">Skelbimo Nr</label>
+            <label index="tx_vvrecatalog_flat.price">Kaina</label>
+            <label index="tx_vvrecatalog_flat.city">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_flat.district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_flat.street">Gatvė</label>
+            <label index="tx_vvrecatalog_flat.number">Buto numeris</label>
+            <label index="tx_vvrecatalog_flat.building_type">Namo tipas</label>
+            <label index="tx_vvrecatalog_flat.bdate">Statybos metai</label>
+            <label index="tx_vvrecatalog_flat.heating_type">Šildymas</label>
+            <label index="tx_vvrecatalog_flat.area">Plotas m2</label>
+            <label index="tx_vvrecatalog_flat.images">Nuotraukos</label>
+            <label index="tx_vvrecatalog_flat.roomcount">Kambarių skaičius</label>
+            <label index="tx_vvrecatalog_flat.floor">Aukštas</label>
+            <label index="tx_vvrecatalog_flat.floorcount">Aukštų skaičius</label>
+            <label index="tx_vvrecatalog_flat.descr">Aprašymas</label>
+            <label index="tx_vvrecatalog_flat.employee">Darbuotojas</label>
+            <label index="tx_vvrecatalog_flat_domoplius_id">Domoplius.lt ID</label>            
+            <label index="tx_vvrecatalog_flat_domoplius_status">Domoplus.lt importo žurnalas</label>            
+            <label index="tx_vvrecatalog_homestead">Sodyba arba sodas</label>
+            <label index="tx_vvrecatalog_homestead.action.I.1">Pardavimas</label>
+            <label index="tx_vvrecatalog_homestead.action.I.2">Nuoma</label>
+            <label index="tx_vvrecatalog_homestead.action">Veiksmas</label>
+            <label index="tx_vvrecatalog_homestead.gid">Skelbimo Nr</label>
+            <label index="tx_vvrecatalog_homestead.price">Kaina</label>
+            <label index="tx_vvrecatalog_homestead.city">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_homestead.district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_homestead.street">Gatve</label>
+            <label index="tx_vvrecatalog_homestead.building_type">Namo tipas</label>
+            <label index="tx_vvrecatalog_homestead.land_pos">Šalia vandens telkinio</label>
+            <label index="tx_vvrecatalog_homestead.bdate">Statybos metai</label>
+            <label index="tx_vvrecatalog_homestead.heating_type">Šildymas</label>
+            <label index="tx_vvrecatalog_homestead.area">Namo plotas m2</label>
+            <label index="tx_vvrecatalog_homestead.roomcount">Kambarių skaičius</label>
+            <label index="tx_vvrecatalog_homestead.land_type">Žemės paskirtis</label>
+            <label index="tx_vvrecatalog_homestead.floorcount">Aukštų skaičius</label>
+            <label index="tx_vvrecatalog_homestead.descr">Papildomas prašymas</label>
+            <label index="tx_vvrecatalog_homestead.land_area">Žemės plotas a.</label>
+            <label index="tx_vvrecatalog_homestead.employee">Darbuotojas</label>
+            <label index="tx_vvrecatalog_house">Namas</label>
+            <label index="tx_vvrecatalog_house.action.I.1">pardavimas</label>
+            <label index="tx_vvrecatalog_house.action.I.2">Nuoma</label>
+            <label index="tx_vvrecatalog_house.action">Veiksmas</label>
+            <label index="tx_vvrecatalog_house.gid">Skelbimo Nr</label>
+            <label index="tx_vvrecatalog_house.price">Kaina</label>
+            <label index="tx_vvrecatalog_house.city">Miestas/Rajonas</label>
+            <label index="tx_vvrecatalog_house.district">Rajonas</label>
+            <label index="tx_vvrecatalog_house.street">Gatve</label>
+            <label index="tx_vvrecatalog_house.number">Namo numeris</label>
+            <label index="tx_vvrecatalog_house.images">Nuotraukos</label>
+            <label index="tx_vvrecatalog_house.roomcount">Kambarių skaičius</label>
+            <label index="tx_vvrecatalog_house.building_type">Namo tipas</label>
+            <label index="tx_vvrecatalog_house.bdate">Statybos metai</label>
+            <label index="tx_vvrecatalog_house.heating_type">Šildymas</label>
+            <label index="tx_vvrecatalog_house.area">Namo plotas m2</label>
+            <label index="tx_vvrecatalog_house.floorcount">Aukštų skaičius</label>
+            <label index="tx_vvrecatalog_house.land_area">Žemės plotas a.</label>
+            <label index="tx_vvrecatalog_house.land_type">Žemės paskirtis</label>
+            <label index="tx_vvrecatalog_house.descr">Papildomas aprašymas</label>
+            <label index="tx_vvrecatalog_house.employee">Darbuotojas</label>
+            <label index="tx_vvrecatalog_accommodation">Patalpa</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.1">Pardavimas</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.2">Nuoma</label>
+            <label index="tx_vvrecatalog_accommodation.action">Veiksmas</label>
+            <label index="tx_vvrecatalog_accommodation.gid">Skelbimo Nr</label>
+            <label index="tx_vvrecatalog_accommodation.price">Kaina</label>
+            <label index="tx_vvrecatalog_accommodation.city">Miestas\Rajonas</label>
+            <label index="tx_vvrecatalog_accommodation.district">Mikrorajonas</label>
+            <label index="tx_vvrecatalog_accommodation.street">Gatve</label>
+            <label index="tx_vvrecatalog_accommodation.building_type">Namo tipas</label>
+            <label index="tx_vvrecatalog_accommodation.bdate">Statybos metai</label>
+            <label index="tx_vvrecatalog_accommodation.heating_type">Šildymas</label>
+            <label index="tx_vvrecatalog_accommodation.area">Plotas m2</label>
+            <label index="tx_vvrecatalog_accommodation.roomcount">Kambarių skaičius</label>
+            <label index="tx_vvrecatalog_accommodation.floorcount">Aukštų skaičius</label>
+            <label index="tx_vvrecatalog_accommodation.descr">Aprašymas</label>
+            <label index="tx_vvrecatalog_accommodation.ac_type">Patalpų paskirtis</label>
+            <label index="tx_vvrecatalog_accommodation.floor">Aukštas</label>
+            <label index="tx_vvrecatalog_accommodation.employee">Darbuotojas</label>
+            <label index="tt_content.list_type_pi1">NT katalogas</label>
+            <label index="tt_content.tx_vvrecatalog.tab.1.title">Katalogo nustatymai</label>
+            <label index="tt_content.tx_vvrecatalog.action">Veiksmas</label>
+            <label index="tt_content.tx_vvrecatalog.what_to_display">NT objektas</label>
+            <label index="tx_vvrecatalog_district.city">Miestas</label>
+            <label index="colPos.I.4">Baneriai apačia</label>
+            <label index="tx_vvrecatalog_flat.settings_tab">Nustatymai</label>
+            <label index="tx_vvrecatalog_flat.ext_pub">Publikavimo nustatymai</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.0">(V) Skelbti visuose dienraščiuose</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.1">(I) Skelbti tik Internete</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.2">(P) Skelbti Alio reklamoje pirmadieniais</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.3">(S) Skelbti Sostinės skelbimuose</label>
+			<label index="tx_vvrecatalog_flat.ext_pub.I.4">(RR) Skelbti „Iš ranku į rankas“</label>
+            <label index="tt_content.tx_vvrecatalog.tab.domoplius.title">Domoplius.lt informacija</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_vvrecatalog_heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_heating_type.title" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_heating_type.aruodas_title" type="integer">790825</label>
+            <label index="tx_vvrecatalog_heating_type.edomus_title" type="integer">181312571</label>
+            <label index="tx_vvrecatalog_land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_land_pos.title" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_city.title" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_city.aruodas_uid" type="integer">62725971</label>
+            <label index="tx_vvrecatalog_city.aruodas_did" type="integer">204623038</label>
+            <label index="tx_vvrecatalog_city.city24_city" type="integer">78776751</label>
+            <label index="tx_vvrecatalog_city.city24_county" type="integer">134346272</label>
+            <label index="tx_vvrecatalog_district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_district.title" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_district.aruodas_uid" type="integer">243195343</label>
+            <label index="tx_vvrecatalog_district.city24_val" type="integer">101486686</label>
+            <label index="tx_vvrecatalog_building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_building_type.title" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_building_type.aruodas_title" type="integer">249877271</label>
+            <label index="tx_vvrecatalog_building_type.edomus_title" type="integer">192090624</label>
+            <label index="tx_vvrecatalog_sequence" type="integer">67058131</label>
+            <label index="tx_vvrecatalog_land" type="integer">85127036</label>
+            <label index="tx_vvrecatalog_land.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_land.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_land.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_land.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_land.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_land.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_land.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_land.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_land.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_land.land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_land.land_area" type="integer">233751807</label>
+            <label index="tx_vvrecatalog_land.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_land.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_land.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_ac_type" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_ac_type.title" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_land_type.title" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_land_type.city24_land_type" type="integer">134825296</label>
+            <label index="tx_vvrecatalog_flat" type="integer">122020827</label>
+            <label index="tx_vvrecatalog_flat.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_flat.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_flat.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_flat.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_flat.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_flat.price_eur" type="integer">127921732</label>
+            <label index="tx_vvrecatalog_flat.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_flat.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_flat.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_flat.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_flat.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_flat.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_flat.area" type="integer">13828350</label>
+            <label index="tx_vvrecatalog_flat.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_flat.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_flat.floor" type="integer">255814915</label>
+            <label index="tx_vvrecatalog_flat.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_flat.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_flat.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_homestead" type="integer">11014982</label>
+            <label index="tx_vvrecatalog_homestead.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_homestead.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_homestead.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_homestead.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_homestead.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_homestead.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_homestead.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_homestead.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_homestead.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_homestead.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_homestead.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_homestead.area" type="integer">245438362</label>
+            <label index="tx_vvrecatalog_homestead.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_homestead.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_homestead.land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_homestead.floorcount" type="integer">251836137</label>
+            <label index="tx_vvrecatalog_homestead.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_homestead.land_area" type="integer">237414502</label>
+            <label index="tx_vvrecatalog_homestead.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_house" type="integer">183238214</label>
+            <label index="tx_vvrecatalog_house.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_house.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_house.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_house.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_house.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_house.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_house.district" type="integer">155239471</label>
+            <label index="tx_vvrecatalog_house.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_house.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_house.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_house.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_house.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_house.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_house.area" type="integer">245438362</label>
+            <label index="tx_vvrecatalog_house.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_house.land_area" type="integer">237414502</label>
+            <label index="tx_vvrecatalog_house.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_house.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_house.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_accommodation" type="integer">65123936</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_accommodation.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_accommodation.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_accommodation.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_accommodation.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_accommodation.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_accommodation.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_accommodation.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_accommodation.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_accommodation.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_accommodation.area" type="integer">13828350</label>
+            <label index="tx_vvrecatalog_accommodation.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_accommodation.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_accommodation.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_accommodation.ac_type" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_accommodation.floor" type="integer">255814915</label>
+            <label index="tx_vvrecatalog_accommodation.employee" type="integer">260869008</label>
+            <label index="tt_content.list_type_pi1" type="integer">136981437</label>
+            <label index="tt_content.tx_vvrecatalog.tab.1.title" type="integer">252928934</label>
+            <label index="tt_content.tx_vvrecatalog.action" type="integer">311148</label>
+            <label index="tt_content.tx_vvrecatalog.what_to_display" type="integer">265932425</label>
+            <label index="tx_vvrecatalog_district.city" type="integer">92079470</label>
+            <label index="colPos.I.4" type="integer">53561670</label>
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="tx_vvrecatalog_heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_heating_type.title" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_heating_type.aruodas_title" type="integer">790825</label>
+            <label index="tx_vvrecatalog_heating_type.edomus_title" type="integer">181312571</label>
+            <label index="tx_vvrecatalog_land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_land_pos.title" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_city.title" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_city.aruodas_uid" type="integer">62725971</label>
+            <label index="tx_vvrecatalog_city.aruodas_did" type="integer">204623038</label>
+            <label index="tx_vvrecatalog_city.city24_city" type="integer">78776751</label>
+            <label index="tx_vvrecatalog_city.city24_county" type="integer">134346272</label>
+            <label index="tx_vvrecatalog_district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_district.title" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_district.aruodas_uid" type="integer">243195343</label>
+            <label index="tx_vvrecatalog_district.city24_val" type="integer">101486686</label>
+            <label index="tx_vvrecatalog_building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_building_type.title" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_building_type.aruodas_title" type="integer">249877271</label>
+            <label index="tx_vvrecatalog_building_type.edomus_title" type="integer">192090624</label>
+            <label index="tx_vvrecatalog_sequence" type="integer">67058131</label>
+            <label index="tx_vvrecatalog_land" type="integer">85127036</label>
+            <label index="tx_vvrecatalog_land.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_land.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_land.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_land.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_land.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_land.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_land.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_land.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_land.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_land.land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_land.land_area" type="integer">233751807</label>
+            <label index="tx_vvrecatalog_land.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_land.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_land.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_ac_type" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_ac_type.title" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_land_type.city24_land_type" type="integer">134825296</label>
+            <label index="tx_vvrecatalog_land_type.title" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_flat" type="integer">122020827</label>
+            <label index="tx_vvrecatalog_flat.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_flat.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_flat.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_flat.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_flat.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_flat.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_flat.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_flat.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_flat.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_flat.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_flat.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_flat.area" type="integer">13828350</label>
+            <label index="tx_vvrecatalog_flat.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_flat.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_flat.floor" type="integer">255814915</label>
+            <label index="tx_vvrecatalog_flat.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_flat.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_flat.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_homestead" type="integer">11014982</label>
+            <label index="tx_vvrecatalog_homestead.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_homestead.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_homestead.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_homestead.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_homestead.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_homestead.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_homestead.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_homestead.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_homestead.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_homestead.land_pos" type="integer">91637856</label>
+            <label index="tx_vvrecatalog_homestead.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_homestead.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_homestead.area" type="integer">245438362</label>
+            <label index="tx_vvrecatalog_homestead.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_homestead.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_homestead.floorcount" type="integer">251836137</label>
+            <label index="tx_vvrecatalog_homestead.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_homestead.land_area" type="integer">237414502</label>
+            <label index="tx_vvrecatalog_homestead.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_house" type="integer">183238214</label>
+            <label index="tx_vvrecatalog_house.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_house.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_house.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_house.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_house.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_house.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_house.district" type="integer">155239471</label>
+            <label index="tx_vvrecatalog_house.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_house.images" type="integer">268373344</label>
+            <label index="tx_vvrecatalog_house.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_house.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_house.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_house.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_house.area" type="integer">245438362</label>
+            <label index="tx_vvrecatalog_house.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_house.land_area" type="integer">237414502</label>
+            <label index="tx_vvrecatalog_house.land_type" type="integer">230721812</label>
+            <label index="tx_vvrecatalog_house.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_house.employee" type="integer">260869008</label>
+            <label index="tx_vvrecatalog_accommodation" type="integer">65123936</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.1" type="integer">50760794</label>
+            <label index="tx_vvrecatalog_accommodation.action.I.2" type="integer">133435782</label>
+            <label index="tx_vvrecatalog_accommodation.action" type="integer">311148</label>
+            <label index="tx_vvrecatalog_accommodation.gid" type="integer">191990494</label>
+            <label index="tx_vvrecatalog_accommodation.price" type="integer">56627526</label>
+            <label index="tx_vvrecatalog_accommodation.city" type="integer">92079470</label>
+            <label index="tx_vvrecatalog_accommodation.district" type="integer">235647734</label>
+            <label index="tx_vvrecatalog_accommodation.street" type="integer">224521181</label>
+            <label index="tx_vvrecatalog_accommodation.building_type" type="integer">23213072</label>
+            <label index="tx_vvrecatalog_accommodation.bdate" type="integer">261228914</label>
+            <label index="tx_vvrecatalog_accommodation.heating_type" type="integer">167653844</label>
+            <label index="tx_vvrecatalog_accommodation.area" type="integer">13828350</label>
+            <label index="tx_vvrecatalog_accommodation.roomcount" type="integer">151522303</label>
+            <label index="tx_vvrecatalog_accommodation.floorcount" type="integer">228653042</label>
+            <label index="tx_vvrecatalog_accommodation.descr" type="integer">190479069</label>
+            <label index="tx_vvrecatalog_accommodation.ac_type" type="integer">247995162</label>
+            <label index="tx_vvrecatalog_accommodation.floor" type="integer">255814915</label>
+            <label index="tx_vvrecatalog_accommodation.employee" type="integer">260869008</label>
+            <label index="tt_content.list_type_pi1" type="integer">136981437</label>
+            <label index="tt_content.tx_vvrecatalog.tab.1.title" type="integer">252928934</label>
+            <label index="tt_content.tx_vvrecatalog.action" type="integer">311148</label>
+            <label index="tt_content.tx_vvrecatalog.what_to_display" type="integer">265932425</label>
+            <label index="tx_vvrecatalog_district.city" type="integer">92079470</label>
+            <label index="colPos.I.4" type="integer">53561670</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

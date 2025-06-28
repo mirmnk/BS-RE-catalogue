@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txvvreexportM1&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">RE Export</label>
+			<label index="mlang_labels_tabdescr">RE ads export </label>
+			<label index="mlang_labels_tablabel">RE Export</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="mlang_tabs_tab">NT Eksportas</label>
+			<label index="mlang_labels_tabdescr">NT skelbimu eskportas</label>
+			<label index="mlang_labels_tablabel">NT Eksportas</label>
+		</languageKey>
+	</data>
+</T3locallang>

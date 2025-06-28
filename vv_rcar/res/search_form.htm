@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VV_RECatalog search form templates</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+Available markers for flat
+
+<!-- ###TEMPLATE_SEARCH_FLAT### begin -->
+<div###SEARCH_DIV_CLASS###>
+<form id="search-frm" name="search_frm" action="###SEARCH_FORM_ACTION###" method="get">###HIDDEN_FIELDS###
+<table border="0" cellpadding="0" cellspacing="0">
+ <tr>
+    <td class="label">###SAVIVALDYBE_LABEL###</td>
+    <td>###SAVIVALDYBE_ELEMENT###</td>
+	<td rowspan="6" width="30" valign="top"><img id="srspinner" style="margin-top: 5em;visibility:hidden;" src="typo3conf/ext/vv_rcar/res/spinner.gif" /></td>
+    <td class="label">###IRENGIMAS_LABEL###</td>
+    <td>###IRENGIMAS_ELEMENT###</td>
+  </tr> 
+ <tr>
+    <td class="label">###GYVENVIETE_LABEL###</td>
+    <td id="cgyvenviete">###GYVENVIETE_ELEMENT###</td>
+    <td class="label">###BDATE_LABEL###</td>
+    <td>###BDATE_ELEMENT###</td>
+  </tr> 
+
+  <tr>
+    <td class="label">###DISTRICT_LABEL###</td>
+    <td id="cmikrorajonas">###DISTRICT_ELEMENT###</td>
+    <td class="label">###AREA_LABEL###</td>
+    <td>###AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###STREET_LABEL###</td>
+    <td id="cgatve">###GATVE_ELEMENT###</td>
+    <td class="label">###ROOMCOUNT_LABEL###</td>
+    <td>###ROOMCOUNT_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GID_LABEL###</td>
+    <td>###GID_ELEMENT###</td>
+    <td class="label">###PRICE_LABEL###</td>
+    <td>###PRICE_ELEMENT###</td>
+  </tr>
+<tr>
+	<td height="50" colspan="2" align="right" valign="middle"><input type="submit" value="###SUBMIT_BUTTON_VALUE###"###SUBMIT_BUTTON_CLASS### /></td>
+	<td colspan="2" valign="middle"><input type="reset" value="###RESET_BUTTON_VALUE###"###RESET_BUTTON_CLASS### /></td>
+</tr></table>
+</form>
+</div>
+<!-- ###TEMPLATE_SEARCH_FLAT### end -->
+
+<!-- ###TEMPLATE_ROW_FLAT### end -->
+<tr###LIST_ROW_CLASS###>
+	<td style="padding-left: 0;" valign="top">###VALUE_IMAGES###</td>
+	<td valign="top">###VALUE_ADDRESS###</td>
+	<td class="even" valign="top">###VALUE_ROOMCOUNT###</td>
+	<td valign="top">###VALUE_AREA###</td>
+	<td class="even" valign="top">###VALUE_FLOOR_FLOORCOUNT###</td>
+	<td valign="top">###VALUE_BUILDING_TYPE###</td>
+	<td class="even" valign="top">###VALUE_BDATE###</td>
+	<td valign="top">###VALUE_PRICE###</td>
+</tr>
+<!-- ###TEMPLATE_ROW_FLAT### end -->
+
+<!-- ###TEMPLATE_HEADER_FLAT### end -->
+<tr###LIST_HEAD_CLASS###>
+	<th style="padding-left: 0;" valign="top">###HEAD_IMAGES###</th>
+	<th valign="top">###HEAD_ADDRESS###</th>
+	<th class="even" valign="top">###HEAD_ROOMCOUNT###</th>
+	<th valign="top">###HEAD_AREA###</th>
+	<th class="even" valign="top">###HEAD_FLOOR_FLOORCOUNT###</th>
+	<th valign="top">###HEAD_BUILDING_TYPE###</th>
+	<th class="even" valign="top">###HEAD_BDATE###</th>
+	<th valign="top">###HEAD_PRICE###</th>
+</tr>
+<!-- ###TEMPLATE_HEADER_FLAT### end -->
+
+
+Available markers for house
+<!-- ###TEMPLATE_SEARCH_HOUSE### begin -->
+<div###SEARCH_DIV_CLASS###>
+<form  id="search-frm" name="search_frm" action="###SEARCH_FORM_ACTION###" method="get">###HIDDEN_FIELDS###
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="label">###SAVIVALDYBE_LABEL###</td>
+    <td>###SAVIVALDYBE_ELEMENT###</td>
+	<td rowspan="6" width="30" valign="top"><img id="srspinner" style="margin-top: 5em;visibility:hidden;" src="typo3conf/ext/vv_rcar/res/spinner.gif" /></td>
+    <td class="label">###IRENGIMAS_LABEL###</td>
+    <td>###IRENGIMAS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GYVENVIETE_LABEL###</td>
+    <td id="cgyvenviete">###GYVENVIETE_ELEMENT###</td>
+    <td class="label">###BDATE_LABEL###</td>
+    <td>###BDATE_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###DISTRICT_LABEL###</td>
+    <td id="cmikrorajonas">###DISTRICT_ELEMENT###</td>
+    <td class="label">###AREA_LABEL###</td>
+    <td>###AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###STREET_LABEL###</td>
+    <td id="cgatve">###GATVE_ELEMENT###</td>
+    <td class="label">###LAND_POS_LABEL###</td>
+    <td>###LAND_POS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GID_LABEL###</td>
+    <td>###GID_ELEMENT###</td>
+    <td class="label">###PRICE_LABEL###</td>
+    <td>###PRICE_ELEMENT###</td>
+  </tr>
+<tr>
+	<td height="50" colspan="2" align="right" valign="middle"><input type="submit" value="###SUBMIT_BUTTON_VALUE###"###SUBMIT_BUTTON_CLASS### /></td>
+	<td colspan="2" valign="middle"><input type="reset" value="###RESET_BUTTON_VALUE###"###RESET_BUTTON_CLASS### /></td>
+</tr></table>
+</form>
+</div>
+<!-- ###TEMPLATE_SEARCH_HOUSE### end -->
+
+<!-- ###TEMPLATE_ROW_HOUSE### end -->
+<tr###LIST_ROW_CLASS###>
+	<td style="padding-left: 0;" valign="top">###VALUE_IMAGES###</td>
+	<td class="even" valign="top">###VALUE_ADDRESS###</td>
+	<td valign="top">###VALUE_BUILDING_TYPE###</td>
+	<td class="even" valign="top">###VALUE_HEATING_TYPE###</td>
+	<td valign="top">###VALUE_AREA###</td>
+	<td class="even" valign="top">###VALUE_FLOORCOUNT###</td>
+	<td valign="top">###VALUE_ROOMCOUNT###</td>
+	<td class="even" valign="top">###VALUE_PRICE###</td>
+</tr>
+<!-- ###TEMPLATE_ROW_HOUSE### end -->
+
+<!-- ###TEMPLATE_HEADER_HOUSE### end -->
+<tr###LIST_HEAD_CLASS###>
+	<th style="padding-left: 0;" valign="top">###HEAD_IMAGES###</th>
+	<th valign="top">###HEAD_ADDRESS###</th>
+	<th class="even" valign="top">###HEAD_BUILDING_TYPE###</th>
+	<th valign="top">###HEAD_HEATING_TYPE###</th>
+	<th class="even" valign="top">###HEAD_AREA###</th>
+	<th valign="top">###HEAD_FLOORCOUNT_SHORT###</th>
+	<th class="even" valign="top">###HEAD_ROOMCOUNT###</th>
+	<th valign="top">###HEAD_PRICE###</th>
+</tr>
+<!-- ###TEMPLATE_HEADER_HOUSE### end -->
+
+Available markers for land
+
+<!-- ###TEMPLATE_SEARCH_LAND### begin -->
+<div###SEARCH_DIV_CLASS###>
+<form id="search-frm" name="search_frm" action="###SEARCH_FORM_ACTION###" method="get">###HIDDEN_FIELDS###
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="label">###SAVIVALDYBE_LABEL###</td>
+    <td>###SAVIVALDYBE_ELEMENT###</td>
+	<td rowspan="6" width="30" valign="top"><img id="srspinner" style="margin-top: 5em;visibility:hidden;" src="typo3conf/ext/vv_rcar/res/spinner.gif" /></td>
+    <td class="label">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="label">###GYVENVIETE_LABEL###</td>
+    <td id="cgyvenviete">###GYVENVIETE_ELEMENT###</td>
+    <td class="label">###LAND_AREA_LABEL###</td>
+    <td>###LAND_AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###DISTRICT_LABEL###</td>
+    <td id="cmikrorajonas">###DISTRICT_ELEMENT###</td>
+    <td class="label">###LAND_TYPE_LABEL###</td>
+    <td>###LAND_TYPE_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###STREET_LABEL###</td>
+    <td id="cgatve">###GATVE_ELEMENT###</td>
+    <td class="label">###LAND_POS_LABEL###</td>
+    <td>###LAND_POS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GID_LABEL###</td>
+    <td>###GID_ELEMENT###</td>
+    <td class="label">###PRICE_LABEL###</td>
+    <td>###PRICE_ELEMENT###</td>
+  </tr>
+<tr>
+	<td height="50" colspan="2" align="right" valign="middle"><input type="submit" value="###SUBMIT_BUTTON_VALUE###"###SUBMIT_BUTTON_CLASS### /></td>
+	<td colspan="2" valign="middle"><input type="reset" value="###RESET_BUTTON_VALUE###"###RESET_BUTTON_CLASS### /></td>
+</tr></table>
+</form>
+</div>
+<!-- ###TEMPLATE_SEARCH_LAND### end -->
+
+<!-- ###TEMPLATE_ROW_LAND### end -->
+<tr###LIST_ROW_CLASS###>
+	<td style="padding-left: 0;" valign="top">###VALUE_IMAGES###</td>
+	<td class="even" valign="top">###VALUE_ADDRESS###</td>
+	<td valign="top">###VALUE_LAND_AREA###</td>
+	<td class="even" valign="top">###VALUE_LAND_TYPE###</td>
+	<td valign="top">###VALUE_PRICE###</td>
+</tr>
+<!-- ###TEMPLATE_ROW_LAND### end -->
+
+<!-- ###TEMPLATE_HEADER_LAND### end -->
+<tr###LIST_HEAD_CLASS###>
+	<th style="padding-left: 0;" valign="top">###HEAD_IMAGES###</th>
+	<th class="even" valign="top">###HEAD_ADDRESS###</th>
+	<th valign="top">###HEAD_LAND_AREA###</th>
+	<th class="even" valign="top">###HEAD_LAND_TYPE###</th>
+	<th valign="top">###HEAD_PRICE###</th>
+</tr>
+<!-- ###TEMPLATE_HEADER_LAND### end -->
+
+Available markers for premises
+
+<!-- ###TEMPLATE_SEARCH_PREMISES### begin -->
+<div###SEARCH_DIV_CLASS###>
+<form  id="search-frm" name="search_frm" action="###SEARCH_FORM_ACTION###" method="get">###HIDDEN_FIELDS###
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="label">###SAVIVALDYBE_LABEL###</td>
+    <td>###SAVIVALDYBE_ELEMENT###</td>
+	<td rowspan="6" width="30" valign="top"><img id="srspinner" style="margin-top: 5em;visibility:hidden;" src="typo3conf/ext/vv_rcar/res/spinner.gif" /></td>
+    <td class="label">###IRENGIMAS_LABEL###</td>
+    <td>###IRENGIMAS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GYVENVIETE_LABEL###</td>
+    <td id="cgyvenviete">###GYVENVIETE_ELEMENT###</td>
+    <td class="label">###BUKLE_LABEL###</td>
+    <td>###BUKLE_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###DISTRICT_LABEL###</td>
+    <td id="cmikrorajonas">###DISTRICT_ELEMENT###</td>
+    <td class="label">###AREA_LABEL###</td>
+    <td>###AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###STREET_LABEL###</td>
+    <td id="cgatve">###GATVE_ELEMENT###</td>
+    <td class="label">###FLOOR_LABEL###</td>
+    <td>###FLOOR_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GID_LABEL###</td>
+    <td>###GID_ELEMENT###</td>
+    <td class="label">###PRICE_LABEL###</td>
+    <td>###PRICE_ELEMENT###</td>
+  </tr>
+<tr>
+	<td height="50" colspan="2" align="right" valign="middle"><input type="submit" value="###SUBMIT_BUTTON_VALUE###"###SUBMIT_BUTTON_CLASS### /></td>
+	<td colspan="2" valign="middle"><input type="reset" value="###RESET_BUTTON_VALUE###"###RESET_BUTTON_CLASS### /></td>
+</tr></table>
+</form>
+</div>
+<!-- ###TEMPLATE_SEARCH_PREMISES### end -->
+
+<!-- ###TEMPLATE_ROW_PREMISES### end -->
+<tr###LIST_ROW_CLASS###>
+	<td style="padding-left: 0;" valign="top">###VALUE_IMAGES###</td>
+	<td valign="top">###VALUE_ADDRESS###</td>
+	<td class="even" valign="top">###VALUE_AC_TYPE###</td>
+	<td valign="top">###VALUE_AREA###</td>
+	<td class="even" valign="top">###VALUE_FLOOR###</td>
+	<td valign="top">###VALUE_HEATING_TYPE###</td>
+	<td class="even" valign="top">###VALUE_PRICE###</td>
+</tr>
+<!-- ###TEMPLATE_ROW_PREMISES### end -->
+
+<!-- ###TEMPLATE_HEADER_PREMISES### end -->
+<tr###LIST_HEAD_CLASS###>
+	<th style="padding-left: 0;" valign="top">###HEAD_IMAGES###</th>
+	<th valign="top">###HEAD_ADDRESS###</th>
+	<th class="even" valign="top">###HEAD_AC_TYPE###</th>
+	<th valign="top">###HEAD_AREA###</th>
+	<th class="even" valign="top">###HEAD_FLOOR###</th>
+	<th valign="top">###HEAD_HEATING_TYPE###</th>
+	<th class="even" valign="top">###HEAD_PRICE###</th>
+</tr>
+<!-- ###TEMPLATE_HEADER_PREMISES### end -->
+
+Available markers for messuages
+
+<!-- ###TEMPLATE_SEARCH_MESSUAGES### begin -->
+<div###SEARCH_DIV_CLASS###>
+<form id="search-frm" name="search_frm" action="###SEARCH_FORM_ACTION###" method="get">###HIDDEN_FIELDS###
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="label">###SAVIVALDYBE_LABEL###</td>
+    <td>###SAVIVALDYBE_ELEMENT###</td>
+	<td rowspan="6" width="30" valign="top"><img id="srspinner" style="margin-top: 5em;visibility:hidden;" src="typo3conf/ext/vv_rcar/res/spinner.gif" /></td>
+    <td class="label">###IRENGIMAS_LABEL###</td>
+    <td>###IRENGIMAS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GYVENVIETE_LABEL###</td>
+    <td id="cgyvenviete">###GYVENVIETE_ELEMENT###</td>
+    <td class="label">###LAND_AREA_LABEL###</td>
+    <td>###LAND_AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###DISTRICT_LABEL###</td>
+    <td id="cmikrorajonas">###DISTRICT_ELEMENT###</td>
+    <td class="label">###HOUSE_AREA_LABEL###</td>
+    <td>###AREA_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###STREET_LABEL###</td>
+    <td id="cgatve">###GATVE_ELEMENT###</td>
+    <td class="label">###LAND_POS_LABEL###</td>
+    <td>###LAND_POS_ELEMENT###</td>
+  </tr>
+  <tr>
+    <td class="label">###GID_LABEL###</td>
+    <td>###GID_ELEMENT###</td>
+    <td class="label">###PRICE_LABEL###</td>
+    <td>###PRICE_ELEMENT###</td>
+  </tr>
+<tr>
+	<td height="50" colspan="2" align="right" valign="middle"><input type="submit" value="###SUBMIT_BUTTON_VALUE###"###SUBMIT_BUTTON_CLASS### /></td>
+	<td colspan="2" valign="middle"><input type="reset" value="###RESET_BUTTON_VALUE###"###RESET_BUTTON_CLASS### /></td>
+</tr></table>
+</form>
+</div>
+<!-- ###TEMPLATE_SEARCH_MESSUAGES### end -->
+
+<!-- ###TEMPLATE_ROW_MESSUAGES### end -->
+<tr###LIST_ROW_CLASS###>
+	<td style="padding-left: 0;" valign="top">###VALUE_IMAGES###</td>
+	<td class="even" valign="top">###VALUE_ADDRESS###</td>
+	<td valign="top">###VALUE_LAND_AREA###</td>
+	<td class="even" valign="top">###VALUE_LAND_TYPE###</td>
+	<td valign="top">###VALUE_AREA###</td>
+	<td class="even" valign="top">###VALUE_BUILDING_TYPE###</td>
+	<td valign="top">###VALUE_PRICE###</td>
+</tr>
+<!-- ###TEMPLATE_ROW_MESSUAGES### end -->
+
+<!-- ###TEMPLATE_HEADER_MESSUAGES### end -->
+<tr###LIST_HEAD_CLASS###>
+	<th style="padding-left: 0;" valign="top">###HEAD_IMAGES###</th>
+	<th class="even" valign="top">###HEAD_ADDRESS###</th>
+	<th valign="top">###HEAD_LAND_AREA###</th>
+	<th class="even" valign="top">###HEAD_LAND_TYPE###</th>
+	<th valign="top">###HEAD_AREA###</th>
+	<th class="even" valign="top">###HEAD_BUILDING_TYPE###</th>
+	<th valign="top">###HEAD_PRICE###</th>
+</tr>
+<!-- ###TEMPLATE_HEADER_MESSUAGES### end -->
+
+</body>
+</html>

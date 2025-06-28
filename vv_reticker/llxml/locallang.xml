@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'vv_reticker'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mvc1_title">RE Catalog ticker</label>
+			<label index="mvc1_plus_wiz_description">RE Catalog ticker plugin</label>
+			<label index="vvreticker_news_ad_type_flat_1">Flat for sale</label>
+			<label index="vvreticker_news_ad_type_flat_2">Flat for rent</label>
+			<label index="vvreticker_news_ad_type_house_1">House for sale</label>
+			<label index="vvreticker_news_ad_type_house_2">House for rent</label>
+			<label index="vvreticker_news_ad_type_land_1">Land for sale</label>
+			<label index="vvreticker_news_ad_type_land_2">Land for rent</label>
+			<label index="vvreticker_news_ad_type_accomodation_1">Premises for sale</label>
+			<label index="vvreticker_news_ad_type_accomodation_2">Premises for rent</label>
+			<label index="vvreticker_news_ad_type_homestead_1">Garden-plots and messuages for sale</label>
+			<label index="vvreticker_news_ad_type_homestead_2">Garden-plots and messuages for rent</label>
+			<label index="vvreticker_news_currency"><![CDATA[&euro;]]></label>
+			<label index="vvreticker_news_adblock_descr_area_units"> sq. meters</label>
+			<label index="vvreticker_news_adblock_descr_landarea_units">(a)</label>
+			<label index="vvreticker_news_adblock_descr_floor_label">floor</label>
+			<label index="vvreticker_news_adblock_descr_floorcount_prelabel">/</label>
+			<label index="vvreticker_news_adblock_descr_floorcount_postlabel"> </label>
+			<label index="vvreticker_news_header">NEWS</label>
+			<label index="vvreticker_vo_header">VALUABLE OFFERS</label>
+			<label index="vvreticker_np_header">NEW PROJECTS</label>
+			<label index="vvreticker_news_adblock_descr_floorcounthouse_postlabel">floors</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="mvc1_title">NT Katalogo anonsas</label>
+			<label index="mvc1_plus_wiz_description">NT Katalogo anonsų modulis</label>
+			<label index="vvreticker_news_ad_type_flat_1">Butas pardavimui</label>
+			<label index="vvreticker_news_ad_type_flat_2">Butas nuomai</label>
+			<label index="vvreticker_news_ad_type_house_1">Namas pardavimui</label>
+			<label index="vvreticker_news_ad_type_house_2">Namas nuomai</label>
+			<label index="vvreticker_news_ad_type_land_1">Žemė pardavimui</label>
+			<label index="vvreticker_news_ad_type_land_2">Žemė nuomai</label>
+			<label index="vvreticker_news_ad_type_accomodation_1">Patalpos pardavimui</label>
+			<label index="vvreticker_news_ad_type_accomodation_2">Patalpos nuomai</label>
+			<label index="vvreticker_news_ad_type_homestead_1">Sodai, sodybos</label>
+			<label index="vvreticker_news_ad_type_homestead_2">Sodai, sodybos nuomai</label>
+			<label index="vvreticker_news_currency">Lt</label>
+			<label index="vvreticker_news_adblock_descr_area_units"><![CDATA[ m&sup2;]]></label>
+			<label index="vvreticker_news_adblock_descr_floor_label"> </label>
+			<label index="vvreticker_news_adblock_descr_landarea_units"> arai</label>
+			<label index="vvreticker_news_adblock_descr_floorcount_prelabel">/</label>
+			<label index="vvreticker_news_adblock_descr_floorcount_postlabel"> </label>
+			<label index="vvreticker_news_header">NAUJIENA</label>
+			<label index="vvreticker_vo_header">Vertingi pasiūlymai</label>
+			<label index="vvreticker_np_header">Nauji projektai</label>
+			<label index="vvreticker_news_adblock_descr_floorcounthouse_postlabel">aukšt.</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txvvrcarM1&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">RC AR import</label>
+			<label index="mlang_labels_tabdescr">RC AR import module</label>
+			<label index="mlang_labels_tablabel">RC AR importas</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="mlang_tabs_tab">RC AR importas</label>
+			<label index="mlang_labels_tabdescr">Registru Centro Adresu Registro DB importas</label>
+			<label index="mlang_labels_tablabel">RC AR importas</label>
+		</languageKey>
+	</data>
+</T3locallang>

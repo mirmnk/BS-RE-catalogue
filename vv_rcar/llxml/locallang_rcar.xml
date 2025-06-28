@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_rcar'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_vvrcar_rajonas_bigcities">----Big sities----</label>
+			<label index="tx_vvrcar_rajonas_counties">----Counties----</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="tx_vvrcar_rajonas_bigcities">----Didieji miestai----</label>
+			<label index="tx_vvrcar_rajonas_counties">----Savyvaldybės----</label>
+		</languageKey>
+	</data>
+</T3locallang>

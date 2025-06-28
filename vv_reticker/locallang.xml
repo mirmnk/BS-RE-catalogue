@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'vv_reticker'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mvc1_title">RE Catalog ticker</label>
+			<label index="mvc1_plus_wiz_description">RE Catalog ticker plugin</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="mvc1_title">NT Katalogo anonsas</label>
+			<label index="mvc1_plus_wiz_description">NT Katalogo anonsų modulis</label>
+		</languageKey>
+	</data>
+</T3locallang>

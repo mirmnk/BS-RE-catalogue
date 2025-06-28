@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_recatalog'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">REOptions</label>
+			<label index="mlang_labels_tabdescr">RE Catalog options</label>
+			<label index="mlang_labels_tablabel">RE Catalog options</label>
+		</languageKey>
+		<languageKey index="lt" type="array">		
+			<label index="mlang_tabs_tab">NTOpcijos</label>
+			<label index="mlang_labels_tabdescr">NT katalogo opcijos</label>
+			<label index="mlang_labels_tablabel">NT katalogo opcijos</label>
+		</languageKey>		
+	</data>
+</T3locallang>

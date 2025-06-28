@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;user_txvvreexportM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">RE Export</label>
+			<label index="function1">Function #1</label>
+			<label index="function2">Function #2</label>
+			<label index="function3">Function #3</label>
+			<label index="reexport_options_section_label">Export settings</label>
+			<label index="reexport_options_languages_label">Select language</label>
+			<label index="reexport_header_rajonas_label">County</label>
+			<label index="reexport_header_gyvenviete_label">Settlement/ district</label>
+			<label index="reexport_header_gatve_label">Street</label>
+			<label index="reexport_header_btype_bdate_label">Type/ Date</label>
+			<label index="reexport_header_floors_label">Floor</label>
+			<label index="reexport_header_area_label">Area</label>
+			<label index="reexport_header_land_area_label">L. area</label>
+			<label index="reexport_header_descr_label">Descr.</label>						
+			<label index="reexport_header_price_label">Price Eur</label>
+			<label index="reexport_header_contacts_label">Contacts</label>
+			<label index="reexport_header_gid_label">Id</label>
+			<label index="reexport_header_ext_pub_label">I; V; P; S; RR</label>
+			<label index="reexport_header_crdate_label">Date</label>
+			<label index="reexport_header_flat_label">Flats</label>
+			<label index="reexport_header_house_label">Houses</label>
+			<label index="reexport_header_land_label">Land</label>
+			<label index="reexport_header_land_type_label">L. type</label>
+			<label index="reexport_header_homestead_label">Garden-plots and messuages</label>
+			<label index="reexport_header_accommodation_label">Premises</label>
+			<label index="reexport_header_action_0_label"> </label>
+			<label index="reexport_header_action_1_label">Sell</label>
+			<label index="reexport_header_action_2_label">Rent</label>	
+			<label index="reexport_land_pos_label">Near water accumulation</label>	
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="title">NT Eksportas</label>
+			<label index="reexport_options_section_label">Eksporto pasirinkimai</label>
+			<label index="reexport_options_languages_label">Pasirinkite kalbą</label>
+			<label index="reexport_header_rajonas_label">Savivaldybė</label>
+			<label index="reexport_header_gyvenviete_label">Gyvenvietė/ mikrorajonas</label>
+			<label index="reexport_header_label_1">dienai</label>
+			<label index="reexport_header_gatve_label">Gatvė</label>
+			<label index="reexport_header_btype_bdate_label">Tipas/ Metai</label> 
+			<label index="reexport_header_floors_label">A.</label>
+			<label index="reexport_header_area_label">Kv.m.</label>
+			<label index="reexport_header_land_area_label">Arai</label>
+			<label index="reexport_header_land_type_label">Paskirtis</label>
+			<label index="reexport_header_descr_label">Pastabos</label>					
+			<label index="reexport_header_price_label">Kaina Lt</label>
+			<label index="reexport_header_contacts_label">Kontaktai</label>
+			<label index="reexport_header_gid_label">Id</label>
+			<label index="reexport_header_ext_pub_label">I; V; P; S; RR</label>
+			<label index="reexport_header_crdate_label">Data</label>						
+			<label index="reexport_header_flat_label">Butai</label>
+			<label index="reexport_header_house_label">Namai</label>
+			<label index="reexport_header_land_label">Žemė</label>
+			<label index="reexport_header_homestead_label">Sodai, sodybos</label>
+			<label index="reexport_header_accommodation_label">Patalpos</label>
+			<label index="reexport_header_action_1_label">Pardavimas</label>
+			<label index="reexport_header_action_2_label">Nuoma</label>		
+			<label index="reexport_land_pos_label">Šalia vandens telkinio</label>
+		</languageKey>
+	</data>
+</T3locallang>
